@@ -88,7 +88,7 @@ Node group creation may take 2-3 minutes
 
 ### Step 4: Authenticate to this cluster
 
-```
+
 Reference:
 https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html
 
@@ -129,14 +129,13 @@ spec:
        - containerPort: 80
 ```
 
-```
 # apply the config file to create the pod
 kubectl apply -f 2048-pod.yaml
 #pod/2048-pod created
 
 # view the newly created pod
 kubectl get pods
-```
+
 
 ### Step 6: Setup Load Balancer Service
 
@@ -155,7 +154,6 @@ spec:
    type: LoadBalancer
 ```
 
-```
 # apply the config file
 kubectl apply -f mygame-svc.yaml
 ```
@@ -183,13 +181,13 @@ curl a06aa56b81f5741268daca84dca6b4f8-694631959.us-east-1.elb.amazonaws.com:80
 
 ## 🛠️ Author & Community  
 
-This project is crafted by **[Harshhaa](https://github.com/NotHarshhaa)** 💡.  
+This project is crafted by **[ashajyothi06](https://github.com/ashajyothi06)** 💡.  
 I’d love to hear your feedback! Feel free to share your thoughts.  
 
 📧 **Connect with me:**
 
 - **GitHub**: [ashajyothi06](https://github.com/ashajyothi06)  
- - **LinkedIn**: [Harshhaa Vardhan Reddy](https://www.linkedin.com/in/ashajyothi-velpula/)  
+ - **LinkedIn**: [ashajyothi velpula](https://www.linkedin.com/in/ashajyothi-velpula/)  
 
 ---
 
